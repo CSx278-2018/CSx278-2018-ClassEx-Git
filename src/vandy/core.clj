@@ -1,12 +1,15 @@
 (ns vandy.core
-  (:gen-class))
-
+  (:gen-class)
+  (:require [vandy.commands :as commands] [clojure.pprint :as pprint]))
 
 (defn vandy-homepage []
   "https://www.vanderbilt.edu")
 
 
 (defn -main
-  "I don't do a whole lot ... yet."
+  "The main function for the app that calls the appropriate command given some arguments."
   [& args]
-  (println (vandy-homepage)))
+  (let [command (get-in (commands/valid-commands-map) args)]
+    (cond
+      (or (nil? command) (not (fn? command))) (println (commands/help))
+      :else (println (command args)))))
