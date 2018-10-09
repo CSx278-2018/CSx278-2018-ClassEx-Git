@@ -1,3 +1,4 @@
+Note: This will be done in class on Thursday, October 11th
 # Distributed Development Exercise
 
 This exercise will give you practice doing distributed development as part of a large
