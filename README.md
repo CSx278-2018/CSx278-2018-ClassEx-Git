@@ -1,5 +1,6 @@
 Note: This will be done in class on Thursday, October 11th
-# Distributed Development Exercise
+
+# Distributed Development Exercise for 10/11
 
 This exercise will give you practice doing distributed development as part of a large
 team. The entire class will modify a single project in one Git repo. At the end of the
