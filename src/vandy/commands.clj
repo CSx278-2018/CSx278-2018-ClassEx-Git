@@ -29,6 +29,8 @@
 
 (defn valid-commands-map [] (reduce merge (map command-to-map valid-commands)))
 
+(defn olivia-doran [] (println "Olivia Doran"))
+
 (defn brooks-taylor[] (println "Brooks Taylor"))
 
 (defn amanda-brandeen []
