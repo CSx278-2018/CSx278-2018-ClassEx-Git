@@ -41,8 +41,6 @@
 
 
 ;; Jacoby
-;;
-;;
 (defn jacoby-kang []
   (println "jacoby kang"))
 
@@ -63,10 +61,9 @@
 ;;
 
 ;; Keola
-;;
-;;
 (defn keola-dunn []
   (str "Keola Dunn"))
+
 ;; Davis
 (defn davis-zhang []
   (println "Davis Zhang"))
