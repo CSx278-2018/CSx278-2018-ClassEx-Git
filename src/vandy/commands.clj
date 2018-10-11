@@ -26,9 +26,7 @@
 
 
 ;; Bruce
-(defn bruce-brookshire []
-  (println "Bruce Brookshire")
-)
+
 
 
 ;; Akan
@@ -36,16 +34,17 @@
 
 
 ;; Bailey
-(defn bailey-pearson []
-  (println "Bailey Pearson")
- )
+
+
+
 
 ;; Keaton
 
 
 
 ;; Payton
-
+(defn payton-odaniels []
+  (println "Payton ODaniels"))
 
 
 ;; Daniel
@@ -57,8 +56,7 @@
 
 
 ;; Xavier
-(defn xavier-ryan []
-  (println "xavier ryan"))
+
 
 
 ;; Aneesha
