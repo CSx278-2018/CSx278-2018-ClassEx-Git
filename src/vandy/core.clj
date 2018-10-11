@@ -5,7 +5,6 @@
 (defn vandy-homepage []
   "https://www.vanderbilt.edu")
 
-
 (defn -main
   "The main function for the app that calls the appropriate command given some arguments."
   [& args]
