@@ -51,8 +51,8 @@
 ;;
 
 ;; Darius
-;;
-;;
+(defn darius-jack []
+  (println "Darius Jack"))
 
 ;; Bruce
 ;;
