@@ -13,3 +13,7 @@
     (cond
       (or (nil? command) (not (fn? command))) (println (commands/help))
       :else (println (command args)))))
+
+(defn jacoby-kang []
+  (println "jacoby kang"))
+  
