@@ -14,6 +14,9 @@
 
 
 (defn add "Adds two args" [& args] (+ (first args) (second args)))
+(defn sameer-puri []
+  (println "Sameer Puri")
+)
 
 (defmacro command [ks f]
   [ks f `(:doc (meta (var ~f)))])
