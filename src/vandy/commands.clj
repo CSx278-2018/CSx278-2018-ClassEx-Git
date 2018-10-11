@@ -25,8 +25,8 @@
 
 
 ;; Irfaan
-;;
-;;
+(defn irfaan-khalid [] 
+  (println "irfaan khalid"))
 
 ;; Manyao
 ;;
