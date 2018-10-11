@@ -48,7 +48,8 @@
                                                                           (command ["joao-pan"] joao-pan)
                                                                           (command ["justin-hastings"] justin-hastings)
                                                                           (command ["lucy-wang"] lucy-wang)
-                                                                          (command ["emily-markert"] emily-markert)])
+                                                                          (command ["emily-markert"] emily-markert)
+                                                                          (command ["xavier-ryan"] xavier-ryan)])
 
 
 (defn command-to-map [[ks f doc]] (assoc-in {} ks f))
