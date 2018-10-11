@@ -34,7 +34,9 @@
 (defn brooks-taylor[] (println "Brooks Taylor"))
 
 (defn amanda-brandeen []
-  (println "Amanda Brandeen")
+  (println "Amanda Brandeen"))
+
+(defn joao-pan []) (println "joao pan")
 
   (defn justin-hastings []
-    (println "Justin Hastings")))
+    (println "Justin Hastings"))
