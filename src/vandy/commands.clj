@@ -23,6 +23,9 @@
 
 (defn valid-commands-map [] (reduce merge (map command-to-map valid-commands)))
 
+;;YIRAN CHEN
+(defn YIRAN_CHEN []
+  (println "YIRAN CHEN"))
 
 ;; Irfaan
 (defn irfaan-khalid []
@@ -33,8 +36,9 @@
 ;;
 
 ;; Aaron
-;;
-;;
+(defn aaron-joseph[]
+  (println "aaron joseph"))
+
 
 ;; Jacoby
 ;;
