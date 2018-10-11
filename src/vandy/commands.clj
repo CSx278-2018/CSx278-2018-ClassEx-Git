@@ -22,3 +22,5 @@
 (defn command-to-map [[ks f doc]] (assoc-in {} ks f))
 
 (defn valid-commands-map [] (reduce merge (map command-to-map valid-commands)))
+
+(defn olivia-doran [] (println "Olivia Doran"))
