@@ -23,6 +23,7 @@
 
 (defn valid-commands-map [] (reduce merge (map command-to-map valid-commands)))
 
+
 ;; Irfaan
 ;;
 ;;
@@ -38,6 +39,8 @@
 ;; Jacoby
 ;;
 ;;
+(defn jacoby-kang []
+  (println "jacoby kang"))
 
 ;; Jonathan
 ;;
@@ -60,3 +63,7 @@
 ;; Keola
 ;;
 ;;
+
+;; Davis
+(defn davis-zhang []
+  (println "Davis Zhang"))
