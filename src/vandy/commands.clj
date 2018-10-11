@@ -13,15 +13,23 @@
 (defn version "Returns app version" [& args] (vandy.version/version))
 
 
+(defn add "Adds two args" [& args] (+ (first args) (second args)))
+(defn sameer-puri []
+  (println "Sameer Puri")
+)
+
 (defmacro command [ks f]
   [ks f `(:doc (meta (var ~f)))])
 
 (def valid-commands "The set of valid commands, indexed by a 'key-path'" [(command ["help"] help)
-                                                                          (command ["version"] version)])
+                                                                          (command ["version"] version)
+                                                                          (command ["brooks-taylor"] brooks-taylor)])
 
 (defn command-to-map [[ks f doc]] (assoc-in {} ks f))
 
 (defn valid-commands-map [] (reduce merge (map command-to-map valid-commands)))
+
+(defn brooks-taylor[] (println "Brooks Taylor"))
 
 (defn amanda-brandeen []
   (println "Amanda Brandeen"))
