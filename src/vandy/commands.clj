@@ -22,7 +22,15 @@
 
 (def valid-commands "The set of valid commands, indexed by a 'key-path'" [(command ["help"] help)
                                                                           (command ["version"] version)
-                                                                          (command ["brooks-taylor"] brooks-taylor)])
+                                                                          (command ["brooks-taylor"] brooks-taylor)
+                                                                          (command ["sameer-puri"] sameer-puri)
+                                                                          (command ["olivia-doran"] olivia-doran)
+                                                                          (command ["jacob-lundy"] jacob-lundy)
+                                                                          (command ["amanda-brandeen"] amanda-brandeen)
+                                                                          (command ["joao-pan"] joao-pan)
+                                                                          (command ["justin-hastings"] justin-hastings)
+                                                                          (command ["lucy-wang"] lucy-wang)
+                                                                          (command ["emily-markert"] emily-markert)])
 
 (defn command-to-map [[ks f doc]] (assoc-in {} ks f))
 
