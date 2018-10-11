@@ -24,8 +24,8 @@
 (defn valid-commands-map [] (reduce merge (map command-to-map valid-commands)))
 
 ;; Irfaan
-;;
-;;
+(defn irfaan-khalid [] 
+  (println "irfaan khalid"))
 
 ;; Manyao
 ;;
