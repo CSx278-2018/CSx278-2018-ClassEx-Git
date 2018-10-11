@@ -72,7 +72,7 @@ lein run some arguments to the main function
    
 10. Turn in your merged exercise branch by tonight at midnight
 
-
+11. No editing code using the Github editor
 
 ## WARNING!
 
