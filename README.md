@@ -82,7 +82,7 @@ This exercise is typically completed by the whole class with 15-20min to spare. 
 class gets out early. However, this ONLY happens if everyone works together and plans
 ahead. 
 
-Hits:
+Hints:
 
  1. Separate files are less likely to have merge conflicts
  
