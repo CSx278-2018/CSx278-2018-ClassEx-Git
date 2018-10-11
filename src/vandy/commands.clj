@@ -26,7 +26,9 @@
 
 
 ;; Bruce
-
+(defn bruce-brookshire []
+  (println "Bruce Brookshire")
+)
 
 
 ;; Akan
@@ -47,9 +49,7 @@
 
 
 ;; Daniel
-(defn daniel-yan []
-  (println "danielyan")
-)
+
 
 
 ;; Reid
