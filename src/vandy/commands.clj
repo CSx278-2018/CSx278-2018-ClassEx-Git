@@ -26,7 +26,8 @@
 
 
 ;; Bruce
-
+(defn bruce-brookshire []
+  (println "Bruce Brookshire"))
 
 
 ;; Akan
