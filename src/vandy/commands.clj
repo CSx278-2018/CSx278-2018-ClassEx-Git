@@ -25,7 +25,7 @@
 
 
 ;; Irfaan
-(defn irfaan-khalid [] 
+(defn irfaan-khalid []
   (println "irfaan khalid"))
 
 ;; Manyao
@@ -61,7 +61,8 @@
 ;; Keola
 ;;
 ;;
-
+(defn keola-dunn []
+  (str "Keola Dunn"))
 ;; Davis
 (defn davis-zhang []
   (println "Davis Zhang"))
