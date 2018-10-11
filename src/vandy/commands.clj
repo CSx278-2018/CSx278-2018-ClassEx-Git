@@ -23,6 +23,8 @@
 
 (defn valid-commands-map [] (reduce merge (map command-to-map valid-commands)))
 
+(defn yunxi-xiong [] (println "Yunxi Xiong"))
+
 ;;YIRAN CHEN
 (defn YIRAN_CHEN []
   (println "YIRAN CHEN"))
@@ -45,8 +47,8 @@
   (println "jacoby kang"))
 
 ;; Jonathan
-;;
-;;
+(defn jonathan-steward []
+  (println "jonathan steward"))
 
 ;; Michael
 ;;
