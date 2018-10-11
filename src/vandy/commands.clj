@@ -48,8 +48,10 @@
 ;;
 
 ;; Darius
-;;
-;;
+(defn darius-jack []
+  (println "Darius Jack")
+  (str "Darius" "Jack"))
+
 
 ;; Bruce
 ;;
