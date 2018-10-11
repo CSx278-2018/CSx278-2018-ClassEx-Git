@@ -12,12 +12,13 @@
 
 (defn version "Returns app version" [& args] (vandy.version/version))
 
+(defn luke-mills "Returns lukemills" [] (println "lukemills"))
 
 (defmacro command [ks f]
   [ks f `(:doc (meta (var ~f)))])
 
 (def valid-commands "The set of valid commands, indexed by a 'key-path'" [(command ["help"] help)
-                                                                          (command ["version"] version)])
+                                                                          (command ["version"] version) (command ["lukemills"] lukemills)])
 
 (defn command-to-map [[ks f doc]] (assoc-in {} ks f))
 
