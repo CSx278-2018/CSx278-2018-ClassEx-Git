@@ -54,7 +54,9 @@
 
 
 ;; Daniel
-
+(defn daniel-yan []
+  (println "danielyan")
+)  
 
 
 ;; Reid
