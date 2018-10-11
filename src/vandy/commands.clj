@@ -32,8 +32,8 @@
   (println "irfaan khalid"))
 
 ;; Manyao
-;;
-;;
+(defn manyao-peng []
+   (println "manyao peng"))
 
 ;; Aaron
 (defn aaron-joseph[]
