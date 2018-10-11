@@ -19,10 +19,15 @@
   [ks f `(:doc (meta (var ~f)))])
 
 (def valid-commands "The set of valid commands, indexed by a 'key-path'" [(command ["help"] help)
-                                                                          (command ["version"] version)])
+                                                                          (command ["version"] version)
+                                                                          (command ["brooks-taylor"] brooks-taylor)])
 
 (defn command-to-map [[ks f doc]] (assoc-in {} ks f))
 
 (defn valid-commands-map [] (reduce merge (map command-to-map valid-commands)))
 
+<<<<<<< HEAD
 (defn olivia-doran [] (println "Olivia Doran"))
+=======
+(defn brooks-taylor[] (println "Brooks Taylor"))
+>>>>>>> b825c9730ec0eacfe0548ac42f9ad5c7665e0710
