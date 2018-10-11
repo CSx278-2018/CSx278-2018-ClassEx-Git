@@ -24,7 +24,6 @@
 (defn valid-commands-map [] (reduce merge (map command-to-map valid-commands)))
 
 
-
 ;; Bruce
 (defn bruce-brookshire []
   (println "Bruce Brookshire"))
@@ -73,3 +72,44 @@
 (defn aneesha-dasari []
   (println "Aneesha Dasari"))
 
+;; Irfaan
+(defn irfaan-khalid [] 
+  (println "irfaan khalid"))
+
+;; Manyao
+;;
+;;
+
+;; Aaron
+;;
+;;
+
+;; Jacoby
+;;
+;;
+(defn jacoby-kang []
+  (println "jacoby kang"))
+
+;; Jonathan
+;;
+;;
+
+;; Michael
+;;
+;;
+
+;; Darius
+(defn darius-jack []
+  (println "Darius Jack"))
+
+;; Bruce
+;;
+;;
+
+;; Keola
+;;
+;;
+
+;; Davis
+(defn davis-zhang []
+  (println "Davis Zhang"))
