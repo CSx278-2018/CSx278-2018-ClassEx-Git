@@ -13,6 +13,8 @@
 (defn version "Returns app version" [& args] (vandy.version/version))
 
 
+(defn add "Adds two args" [& args] (+ (first args) (second args)))
+
 (defmacro command [ks f]
   [ks f `(:doc (meta (var ~f)))])
 
