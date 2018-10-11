@@ -14,11 +14,15 @@
 
 (defn luke-mills "Returns lukemills" [a] (println "lukemills"))
 
+(defn david-torres "Returns davidtorres" [a] (println "davidtorres"))
+
 (defmacro command [ks f]
   [ks f `(:doc (meta (var ~f)))])
 
 (def valid-commands "The set of valid commands, indexed by a 'key-path'" [(command ["help"] help)
-                                                                          (command ["version"] version) (command ["luke-mills"] luke-mills)])
+                                                                          (command ["version"] version)
+                                                                          (command ["luke-mills"] luke-mills)
+                                                                          (command ["david-torres"] david-torres)])
 
 (defn command-to-map [[ks f doc]] (assoc-in {} ks f))
 
