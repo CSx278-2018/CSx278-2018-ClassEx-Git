@@ -35,7 +35,9 @@
 
 
 ;; Bailey
-
+(defn bailey-pearson []
+  (println "Bailey Pearson"
+))
 
 
 
