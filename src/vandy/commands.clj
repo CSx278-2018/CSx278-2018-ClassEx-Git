@@ -22,3 +22,41 @@
 (defn command-to-map [[ks f doc]] (assoc-in {} ks f))
 
 (defn valid-commands-map [] (reduce merge (map command-to-map valid-commands)))
+
+
+
+;; Bruce
+
+
+
+;; Akan
+
+
+
+;; Bailey
+
+
+
+
+;; Keaton
+
+
+
+;; Payton
+
+
+
+;; Daniel
+
+
+
+;; Reid
+
+
+
+;; Xavier
+
+
+
+;; Aneesha
+
