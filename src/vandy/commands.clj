@@ -36,7 +36,9 @@
 (defn amanda-brandeen []
   (println "Amanda Brandeen"))
 
-(defn joao-pan []) (println "joao pan")
+(defn joao-pan [] (println "joao pan"))
 
   (defn justin-hastings []
     (println "Justin Hastings"))
+
+  (defn lucy-wang[] (println "lucy wang"))
