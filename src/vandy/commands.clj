@@ -22,3 +22,39 @@
 (defn command-to-map [[ks f doc]] (assoc-in {} ks f))
 
 (defn valid-commands-map [] (reduce merge (map command-to-map valid-commands)))
+
+;; Irfaan
+;;
+;;
+
+;; Manyao
+;;
+;;
+
+;; Aaron
+;;
+;;
+
+;; Jacoby
+;;
+;;
+
+;; Jonathan
+;;
+;;
+
+;; Michael
+;;
+;;
+
+;; Darius
+;;
+;;
+
+;; Bruce
+;;
+;;
+
+;; Keola
+;;
+;;
