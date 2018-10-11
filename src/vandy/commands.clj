@@ -31,7 +31,8 @@
 
 
 ;; Akan
-
+(defn akan-eyoh []
+  (println "Akan Eyoh"))
 
 
 ;; Bailey
