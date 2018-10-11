@@ -74,6 +74,8 @@ lein run some arguments to the main function
 
 11. No editing code using the Github editor
 
+12. No passing a single computer around
+
 ## WARNING!
 
 Failure to coordinate as a class will result in this exercise being MUCH HARDER than it
