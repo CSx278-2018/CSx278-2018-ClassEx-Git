@@ -148,7 +148,7 @@
 
 (defn jacob-lundy "Prints jacob Lundy" [] "Jacob Lundy")
 
-(defn brooks-taylor[] (println "Brooks Taylor"))
+(defn brooks-taylor [] (println "Brooks Taylor"))
 
 (defn amanda-brandeen []
   (println "Amanda Brandeen"))
