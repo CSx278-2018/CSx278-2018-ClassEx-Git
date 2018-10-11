@@ -12,11 +12,14 @@
 
 (defn version "Returns app version" [& args] (vandy.version/version))
 
-(defn luke-mills "Returns lukemills" [a] (println "lukemills"))
+(defn luke-mills "Returns lukemills" [& args] "lukemills")
 
-(defn david-torres "Returns davidtorres" [a] (println "davidtorres"))
+(defn david-torres "Returns davidtorres" [& args] "davidtorres")
 
-(defn anvit-gupta "Returns davidtorres" [a] (println "anvitgupta"))
+(defn anvit-gupta "Returns anvitgupta" [& args] "anvitgupta")
+
+(defn max-engel "Returns maxengel" [& args] "maxengel")
+
 
 (defmacro command [ks f]
   [ks f `(:doc (meta (var ~f)))])
@@ -25,7 +28,8 @@
                                                                           (command ["version"] version)
                                                                           (command ["luke-mills"] luke-mills)
                                                                           (command ["david-torres"] david-torres)
-                                                                          (command ["anvit-gupta"] anvit-gupta)])
+                                                                          (command ["anvit-gupta"] anvit-gupta)
+                                                                          (command ["max-engel"] max-engel)])
 
 (defn command-to-map [[ks f doc]] (assoc-in {} ks f))
 
