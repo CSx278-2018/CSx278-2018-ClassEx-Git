@@ -23,10 +23,12 @@
 
 (defn valid-commands-map [] (reduce merge (map command-to-map valid-commands)))
 
-(defn yunxi-xiong [] (println "Yunxi Xiong"))
+;; Yunxi
+(defn yunxi-xiong [] 
+  (println "Yunxi Xiong"))
 
-;;YIRAN CHEN
-(defn YIRAN_CHEN []
+;; Yiran
+(defn yiran-chen []
   (println "YIRAN CHEN"))
 
 ;; Irfaan
@@ -50,17 +52,9 @@
 (defn jonathan-steward []
   (println "jonathan steward"))
 
-;; Michael
-;;
-;;
-
 ;; Darius
 (defn darius-jack []
   (println "Darius Jack"))
-
-;; Bruce
-;;
-;;
 
 ;; Keola
 (defn keola-dunn []
