@@ -33,8 +33,9 @@
 ;;
 
 ;; Aaron
-;;
-;;
+(defn aaron-joseph[]
+  (println "aaron joseph"))
+
 
 ;; Jacoby
 ;;
