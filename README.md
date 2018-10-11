@@ -40,7 +40,8 @@ lein run some arguments to the main function
    will be awarded to all students that commit after the first student to commit the
    functionality)
    
-3. Each piece of functionality needs to be accessible by running the application --
+3. Each piece of functionality needs to be accessible by running the application and 
+   committed and pushed to a branch in the repo by the student that created it --
    you will need to determine what function to run and what output to print based on 
    the command line arguments to -main
    
