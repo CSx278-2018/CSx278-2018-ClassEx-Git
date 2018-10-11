@@ -57,7 +57,8 @@
 
 
 ;; Reid
-
+(defn reid-wilson []
+  (println "Reid Wilson"))
 
 
 ;; Xavier
