@@ -12,7 +12,7 @@
 
 (defn version "Returns app version" [& args] (vandy.version/version))
 
-
+;;comment test
 (defmacro command [ks f]
   [ks f `(:doc (meta (var ~f)))])
 
