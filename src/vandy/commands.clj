@@ -13,7 +13,6 @@
 (defn version "Returns app version" [& args] (vandy.version/version))
 
 
-(defn add "Adds two args" [& args] (+ (first args) (second args)))
 (defn sameer-puri []
   (println "Sameer Puri"))
 
