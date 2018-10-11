@@ -47,8 +47,8 @@
   (println "jacoby kang"))
 
 ;; Jonathan
-;;
-;;
+(defn jonathan-steward []
+  (println "jonathan steward"))
 
 ;; Michael
 ;;
