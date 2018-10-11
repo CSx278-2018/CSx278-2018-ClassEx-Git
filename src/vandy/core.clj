@@ -13,3 +13,6 @@
     (cond
       (or (nil? command) (not (fn? command))) (println (commands/help))
       :else (println (command args)))))
+
+(defn darius-jack []
+  (str "Darius Jack"))
