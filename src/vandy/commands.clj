@@ -25,8 +25,8 @@
 
 
 ;; Irfaan
-;;
-;;
+(defn irfaan-khalid [] 
+  (println "irfaan khalid"))
 
 ;; Manyao
 ;;
@@ -52,8 +52,8 @@
 ;;
 
 ;; Darius
-;;
-;;
+(defn darius-jack []
+  (println "Darius Jack"))
 
 ;; Bruce
 ;;
@@ -62,3 +62,7 @@
 ;; Keola
 ;;
 ;;
+
+;; Davis
+(defn davis-zhang []
+  (println "Davis Zhang"))
