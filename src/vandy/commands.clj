@@ -22,3 +22,46 @@
 (defn command-to-map [[ks f doc]] (assoc-in {} ks f))
 
 (defn valid-commands-map [] (reduce merge (map command-to-map valid-commands)))
+
+
+;; Irfaan
+;;
+;;
+
+;; Manyao
+;;
+;;
+
+;; Aaron
+;;
+;;
+
+;; Jacoby
+;;
+;;
+(defn jacoby-kang []
+  (println "jacoby kang"))
+
+;; Jonathan
+;;
+;;
+
+;; Michael
+;;
+;;
+
+;; Darius
+;;
+;;
+
+;; Bruce
+;;
+;;
+
+;; Keola
+;;
+;;
+
+;; Davis
+(defn davis-zhang []
+  (println "Davis Zhang"))
