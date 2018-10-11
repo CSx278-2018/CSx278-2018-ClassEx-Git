@@ -31,114 +31,114 @@
 
 
 ;; Yunxi
-(defn yunxi-xiong []
+(defn yunxi-xiong [& args]
   (println "Yunxi Xiong"))
 
 ;; Yiran
-(defn yiran-chen []
+(defn yiran-chen [& args]
   (println "YIRAN CHEN"))
 
 ;; Bruce
-(defn bruce-brookshire []
+(defn bruce-brookshire [& args]
   (println "Bruce Brookshire"))
 
 
 ;; Akan
-(defn akan-eyoh []
+(defn akan-eyoh [& args]
   (println "Akan Eyoh"))
 
 
 ;; Bailey
-(defn bailey-pearson []
+(defn bailey-pearson [& args]
   (println "Bailey Pearson"))
 
 
 
 
 ;; Keaton
-(defn keaton-ufheil []
+(defn keaton-ufheil [& args]
   (println "Keaton Ufheil"))
 
 
 
 ;; Payton
-(defn payton-odaniels []
+(defn payton-odaniels [& args]
   (println "Payton ODaniels"))
 
 
 ;; Daniel
-(defn daniel-yan []
+(defn daniel-yan [& args]
   (println "danielyan"))
 
 
 
 ;; Reid
-(defn reid-wilson []
+(defn reid-wilson [& args]
   (println "Reid Wilson"))
 
 
 ;; Xavier
-(defn xavier-ryan []
+(defn xavier-ryan [& args]
   (println "Xavier Ryan"))
 
 
 ;; Aneesha
-(defn aneesha-dasari []
+(defn aneesha-dasari [& args]
   (println "Aneesha Dasari"))
 
 ;; Irfaan
-(defn irfaan-khalid []
+(defn irfaan-khalid [& args]
   (println "irfaan khalid"))
 
 ;; Manyao
-(defn manyao-peng []
+(defn manyao-peng [& args]
    (println "manyao peng"))
 
 ;; Aaron
-(defn aaron-joseph[]
+(defn aaron-joseph[& args]
   (println "aaron joseph"))
 
 
 ;; Jacoby
-(defn jacoby-kang []
+(defn jacoby-kang [& args]
   (println "jacoby kang"))
 
 ;; Jonathan
-(defn jonathan-steward []
+(defn jonathan-steward [& args]
   (println "jonathan steward"))
 
 ;; Darius
-(defn darius-jack []
+(defn darius-jack [& args]
   (println "Darius Jack"))
 
 ;; Keola
-(defn keola-dunn []
+(defn keola-dunn [& args]
   (str "Keola Dunn"))
 
 ;; Davis
-(defn davis-zhang []
+(defn davis-zhang [& args]
   (println "Davis Zhang"))
 
-(defn olivia-doran [] (println "Olivia Doran"))
+(defn olivia-doran [& args] (println "Olivia Doran"))
 
-(defn jacob-lundy "Prints jacob Lundy" [] "Jacob Lundy")
+(defn jacob-lundy "Prints jacob Lundy" [& args] "Jacob Lundy")
 
-(defn brooks-taylor [] (println "Brooks Taylor"))
+(defn brooks-taylor [& args] (println "Brooks Taylor"))
 
-(defn amanda-brandeen []
+(defn amanda-brandeen [& args]
   (println "Amanda Brandeen"))
 
-(defn joao-pan [] (println "joao pan"))
+(defn joao-pan [& args] (println "joao pan"))
 
-(defn justin-hastings []
+(defn justin-hastings [& args]
   (println "Justin Hastings"))
 
-(defn lucy-wang[] (println "lucy wang"))
+(defn lucy-wang [& args] (println "lucy wang"))
 
-(defn emily-markert []
+(defn emily-markert [& args]
   (println "Emily Markert"))
 
-(defn sameer-puri []
+(defn sameer-puri [& args]
   (println "Sameer Puri"))
 
 
