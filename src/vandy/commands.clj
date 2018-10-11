@@ -24,3 +24,45 @@
 (defn valid-commands-map [] (reduce merge (map command-to-map valid-commands)))
 
 (defn yunxi-xiong [] (println "Yunxi Xiong"))
+
+;; Irfaan
+(defn irfaan-khalid []
+  (println "irfaan khalid"))
+
+;; Manyao
+;;
+;;
+
+;; Aaron
+;;
+;;
+
+;; Jacoby
+;;
+;;
+(defn jacoby-kang []
+  (println "jacoby kang"))
+
+;; Jonathan
+;;
+;;
+
+;; Michael
+;;
+;;
+
+;; Darius
+;;
+;;
+
+;; Bruce
+;;
+;;
+
+;; Keola
+;;
+;;
+
+;; Davis
+(defn davis-zhang []
+  (println "Davis Zhang"))
