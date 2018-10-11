@@ -25,6 +25,10 @@
 
 (defn yunxi-xiong [] (println "Yunxi Xiong"))
 
+;;YIRAN CHEN
+(defn YIRAN_CHEN []
+  (println "YIRAN CHEN"))
+
 ;; Irfaan
 (defn irfaan-khalid []
   (println "irfaan khalid"))
@@ -34,8 +38,9 @@
 ;;
 
 ;; Aaron
-;;
-;;
+(defn aaron-joseph[]
+  (println "aaron joseph"))
+
 
 ;; Jacoby
 ;;
@@ -52,8 +57,8 @@
 ;;
 
 ;; Darius
-;;
-;;
+(defn darius-jack []
+  (println "Darius Jack"))
 
 ;; Bruce
 ;;
@@ -62,7 +67,8 @@
 ;; Keola
 ;;
 ;;
-
+(defn keola-dunn []
+  (str "Keola Dunn"))
 ;; Davis
 (defn davis-zhang []
   (println "Davis Zhang"))
