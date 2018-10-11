@@ -39,7 +39,11 @@
 
 (defn joao-pan [] (println "joao pan"))
 
-  (defn justin-hastings []
-    (println "Justin Hastings"))
+(defn justin-hastings []
+  (println "Justin Hastings"))
 
-  (defn lucy-wang[] (println "lucy wang"))
+(defn lucy-wang[] (println "lucy wang"))
+
+(defn emily-markert [] 
+  (println "Emily Markert"))
+  
