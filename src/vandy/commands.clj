@@ -18,7 +18,7 @@
   [ks f `(:doc (meta (var ~f)))])
 
 (def valid-commands "The set of valid commands, indexed by a 'key-path'" [(command ["help"] help)
-                                                                          (command ["version"] version) (command ["lukemills"] lukemills)])
+                                                                          (command ["version"] version) (command ["lukemills"] luke-mills)])
 
 (defn command-to-map [[ks f doc]] (assoc-in {} ks f))
 
