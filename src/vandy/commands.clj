@@ -12,19 +12,45 @@
 
 (defn version "Returns app version" [& args] (vandy.version/version))
 
-;;comment test
+(defn luke-mills "Returns lukemills" [& args] "lukemills")
+
+(defn david-torres "Returns davidtorres" [& args] "davidtorres")
+
+(defn anvit-gupta "Returns anvitgupta" [& args] "anvitgupta")
+
+(defn max-engel "Returns maxengel" [& args] "maxengel")
+
+(defn naveen-varadharaj "Returns naveenvaradharaj" [& args] "navenvaradharaj")
+
+(defn sachit-bhat "Returns sachitbhat" [& args] "sachitbhat")
+
+(defn grum-woldemichael "Returns grumwoldemichael" [& args] "grumwoldemichael")
+
+(defn kevin-zhang "Returns kevinzhang" [& args] "kevinzhang")
+
 (defmacro command [ks f]
   [ks f `(:doc (meta (var ~f)))])
 
 (def valid-commands "The set of valid commands, indexed by a 'key-path'" [(command ["help"] help)
-                                                                          (command ["version"] version)])
+                                                                          (command ["version"] version)
+                                                                          (command ["luke-mills"] luke-mills)
+                                                                          (command ["david-torres"] david-torres)
+                                                                          (command ["anvit-gupta"] anvit-gupta)
+                                                                          (command ["max-engel"] max-engel)
+                                                                          (command ["naveen-varadharaj"] naveen-varadharaj)
+                                                                          (command ["sachit-bhat"] sachit-bhat)
+                                                                          (command ["grum-woldemichael"] grum-woldemichael)
+                                                                          (command ["kevin-zhang"] kevin-zhang)])
+
+
+
 
 (defn command-to-map [[ks f doc]] (assoc-in {} ks f))
 
 (defn valid-commands-map [] (reduce merge (map command-to-map valid-commands)))
 
 ;; Yunxi
-(defn yunxi-xiong [] 
+(defn yunxi-xiong []
   (println "Yunxi Xiong"))
 
 ;; Yiran
@@ -43,15 +69,15 @@
 
 ;; Bailey
 (defn bailey-pearson []
-  (println "Bailey Pearson"
-))
+  (println "Bailey Pearson"))
+
 
 
 
 ;; Keaton
 (defn keaton-ufheil []
-  (println "Keaton Ufheil")
-)
+  (println "Keaton Ufheil"))
+
 
 
 ;; Payton
@@ -61,8 +87,8 @@
 
 ;; Daniel
 (defn daniel-yan []
-  (println "danielyan")
-)  
+  (println "danielyan"))
+
 
 
 ;; Reid
