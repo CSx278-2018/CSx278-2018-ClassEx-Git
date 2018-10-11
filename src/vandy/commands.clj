@@ -20,6 +20,15 @@
 
 (defn max-engel "Returns maxengel" [& args] "maxengel")
 
+(defn naveen-varadharaj "Returns naveenvaradharaj" [& args] "navenvaradharaj")
+
+(defn sachit-bhat "Returns sachitbhat" [& args] "sachitbhat")
+
+(defn grum-woldemichael "Returns grumwoldemichael" [& args] "grumwoldemichael")
+
+(defn kevin-zhang "Returns kevinzhang" [& args] "kevinzhang")
+
+
 
 (defmacro command [ks f]
   [ks f `(:doc (meta (var ~f)))])
@@ -29,7 +38,14 @@
                                                                           (command ["luke-mills"] luke-mills)
                                                                           (command ["david-torres"] david-torres)
                                                                           (command ["anvit-gupta"] anvit-gupta)
-                                                                          (command ["max-engel"] max-engel)])
+                                                                          (command ["max-engel"] max-engel)
+                                                                          (command ["naveen-varadharaj"] naveen-varadharaj)
+                                                                          (command ["sachit-bhat"] sachit-bhat)
+                                                                          (command ["grum-woldemichael"] grum-woldemichael)
+                                                                          (command ["kevin-zhang"] kevin-zhang)])
+
+
+
 
 (defn command-to-map [[ks f doc]] (assoc-in {} ks f))
 
