@@ -31,6 +31,8 @@
 
 (defn olivia-doran [] (println "Olivia Doran"))
 
+(defn jacob-lundy "Prints jacob Lundy" [] "Jacob Lundy")
+
 (defn brooks-taylor[] (println "Brooks Taylor"))
 
 (defn amanda-brandeen []
